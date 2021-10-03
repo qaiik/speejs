@@ -1,7 +1,7 @@
 class Spee {
   constructor() {
     this.sr = new webkitSpeechRecognition();
-    this.sr.continous = true;
+    this.sr.continuous = true;
     this.sr.onresult = (r)=>{this.ontext(r.results[r.results.length - 1][0].transcript)};
     this.ontext = null;
   }
