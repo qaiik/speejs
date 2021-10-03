@@ -8,6 +8,9 @@ class Spee {
   start() {
     this.sr.start()
   }
+  
+  stop() {
+    this.sr.stop()
+  }
 }
     
-//t.onresult = (r)=>{console.log(r.results[r.results.length - 1][0].transcript)}
